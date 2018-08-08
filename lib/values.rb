@@ -11,6 +11,5 @@ groceries = {
 def get_the_values(groceries)
   groceries.values.flatten
 end
-binding.pry
 
 puts get_the_values(groceries)
