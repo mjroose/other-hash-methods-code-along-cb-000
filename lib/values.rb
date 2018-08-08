@@ -9,7 +9,7 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  #code your solution here!
+  groceries.values
 end
 
-puts String(get_the_values(groceries))
+puts get_the_values(groceries)
